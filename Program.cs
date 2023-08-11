@@ -214,7 +214,7 @@ namespace Game
                     {
                         maze.visited[vy, vx] = 1;
                         maze.visited[vy, vx + 1] = 1;
-                        maze.visited[vy - 1, vx] = 1;
+                        maze.visited[vy + 1, vx] = 1;
 
                         if (maze.canMoveTo(vy, vx))
                         {
